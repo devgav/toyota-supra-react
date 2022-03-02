@@ -1,0 +1,190 @@
+.utilitybar {
+    box-shadow: none;
+    border: none;
+    background-color: orange;
+}
+
+.ui.container.front-supra {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dw6d8599a3/v2/model/GRSupra/feature/22_Supra_Barker_1280x480.jpg");
+    opacity: 0.8;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.square-white {
+    width: 40px;
+    height: 40px;
+    background-color: #EBEAE5;
+}
+
+.square-grey {
+    width: 40px;
+    height: 40px;
+    background-color: #DCDCDE;
+}
+
+.square-dark-grey {
+    width: 40px;
+    height: 40px;
+    background-color: #B0B7BD;
+}
+
+.square-red {
+    width: 40px;
+    height: 40px;
+    background-color: #B61E0D;
+}
+
+.square-yellow {
+    width: 40px;
+    height: 40px;
+    background-color: #DDB329;
+}
+
+.square-black {
+    width: 40px;
+    height: 40px;
+    background-color: #161617;
+}
+
+.square-off-grey {
+    width: 40px;
+    height: 40px;
+    background-color: #CCD0D3;
+}
+
+.ui.white.button {
+    background-color: white;
+    color: black;
+}
+
+.front-supra-size {
+    width: 600px; height: 404px;
+}
+.column.based {
+    background-color: rgba(0, 0, 0, 0.8); color: white;
+    padding: 3rem;
+}
+.ui.grid.super-supra {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dwd7d793e5/v2/model/GRSupra/feature/MY21-Supra-Beautifully-Engineered_1594257744_5f067150b8b73.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+.ui.grid.inside-supra {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dw77904a95/v2/model/GRSupra/feature/20MY_Supra_Interior_1566415904_5d5d9c200c74b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+span.disc {
+    color: red;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    font-size: 70%;
+    vertical-align: super;
+}
+.exterior.background {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dwb5902ba5/v2/model/GRSupra/gallery/MY20_Supra_Ext-1_MY20_Supra_Ext-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 600px;
+}
+.interior.background {
+    background-image: url("https://www.toyotahawaii.com/on/demandware.static/-/Sites-ToyotaHawaii-Library/default/dw3bc1d411/v2/model/GRSupra/gallery/22_Supra_Int1_1499x522.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.white.background {
+    padding-bottom: 3px;
+}
+i.inverted.circular.icon {
+    background-color: white !important;
+    color: black !important;
+    opacity: 1 !important;
+}
+/*CUSTOM WIDTH FOR UI CONTAINER */
+.ui.container {
+    width: 1498px;
+}
+
+.ui.grid.container {
+    width: calc( 1498px  +  2rem ) !important;
+}
+
+.ui.relaxed.grid.container {
+    width: calc( 1498px  +  3rem ) !important;
+}
+
+.ui.very.relaxed.grid.container {
+    width: calc( 1498px  +  5rem ) !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ui.container {
+        width: 1498px;
+    }
+
+    .ui.grid.container {
+        width: calc( 1498px  +  2rem ) !important;
+    }
+
+    .ui.relaxed.grid.container {
+        width: calc( 1498px  +  3rem ) !important;
+    }
+
+    .ui.very.relaxed.grid.container {
+        width: calc( 1498px  +  5rem ) !important;
+    }
+}
+
+/*Custom text color cuz semantic ui doesn't have it for some reason*/
+.text.white {
+    color: #FFFFFF;
+}
+.text.grey {
+    color: #CCCCCC;
+}
+.text.black {
+    color: #1B1C1D;
+}
+.text.yellow {
+    color: #F2C61F;
+}
+.text.teal {
+    color: #00B5AD;
+}
+.text.red {
+    color: #FE0000;
+}
+.text.purple {
+    color: #564F8A;
+}
+.text.pink {
+    color: #D9499A;
+}
+.text.orange {
+    color: #E07B53;
+}
+.text.green {
+    color: #5BBD72;
+}
+.text.blue {
+    color: #3B83C0;
+}
