@@ -386,7 +386,7 @@ class SupraSpec extends Component {
 class Footer extends Component {
     render() {
         return(
-            <div style={{backgroundColor: "red"}}>
+            <div style={{backgroundColor: "black"}}>
                 <Grid container columns="equal" style={{backgroundColor: "black"}}>
                     <Grid.Row>
                         <Grid.Column>
@@ -401,7 +401,7 @@ class Footer extends Component {
                             </List>
                         </Grid.Column>
                         <Grid.Column>
-                            <List horizontal>
+                            <List horizontal style={{marginTop: "8px"}}>
                                 <List.Item>
                                     <Icon name="facebook f" circular inverted/>
                                 </List.Item>
@@ -413,12 +413,14 @@ class Footer extends Component {
                                 </List.Item>
                             </List>
                             <hr/>
-                            <List>
-                                <List.Item className={"text white"}>
-                                    We're here for you.
-                                    You've come to expect quality from our products; communication with us is no different.
-                                    Please contact us or send us an email with your questions, comments or requests
-                                </List.Item>
+                            <List className={"text white"}>
+                                <List.Item><Button basic inverted>Recall Information</Button></List.Item>
+                                <br/>
+                                <List.Item>Customer Care</List.Item>
+                                <List.Item>PH: 1-888-272-5515</List.Item>
+                                <br/>
+                                <List.Item>© 2022 SERVCO PACIFIC INC.</List.Item>
+                                <List.Item>All Rights Reserved.</List.Item>
                             </List>
                         </Grid.Column>
                         <Grid.Column>
